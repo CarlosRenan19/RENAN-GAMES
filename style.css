@@ -617,3 +617,26 @@ footer {
         font-size: 18px;
     }
 }
+
+#loader-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #252525;
+}
+
+#loader {
+    width: 90px;
+    height: 90px;
+    border: 6px solid #e5e5e5;
+    border-top-color: rgb(24, 135, 240);
+    border-radius: 50%;
+    animation: giro 1s infinite;
+}
+
+@keyframes giro {
+    to {
+        transform: rotate(1turn);
+    }
+}
